@@ -1,0 +1,7 @@
+module MyApp.UI
+
+FancyTile 1.0 FancyTile.qml
+ItemLoader 1.0 ItemLoader.qml
+ItemsView 1.0 ItemsView.qml
+Main 1.0 Main.qml
+Toolbar 1.0 Toolbar.qml
