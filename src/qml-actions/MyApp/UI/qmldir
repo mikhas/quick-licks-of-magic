@@ -1,0 +1,5 @@
+module MyApp.UI
+
+Main 1.0 Main.qml
+Toolbar 1.0 Toolbar.qml
+View 1.0 View.qml
