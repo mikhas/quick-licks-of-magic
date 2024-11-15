@@ -13,3 +13,4 @@ List of examples
 - [src/qml-factory](src/qml-factory)
 - [src/qml-actions](src/qml-actions)
 - [src/qml-action-decorator](src/qml-action-decorator)
+- [src/qml-zoomable-image](src/qml-zoomable-image)
