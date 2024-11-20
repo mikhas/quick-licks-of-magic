@@ -69,9 +69,30 @@ Flickable {
         cache: false
         mipmap: true
         smooth: true
+
+        // Remember, x & y have two bindings: Their original value and the
+        // conditional bindings that are active when the image's size becomes
+        // smaller than the viewport, on zoom out.
+        x: 0
+        y: 0
+
+        // Two bindings to keep the image centered on zoom out.
+        Binding on x {
+            when: root.width > root.contentWidth
+            value: (root.width - root.contentWidth) / 2
+        }
+        Binding on y {
+            when: root.height > root.contentHeight
+            value: (root.height - root.contentHeight) / 2
+        }
     }
     MouseArea {
-        anchors.fill: parent
+        // Sometimes, direct positioning (and sizing) is the best way...
+        x: image.x
+        y: image.y
+        width: parent.width
+        height: parent.height
+
         acceptedButtons: Qt.NoButton
         onWheel: (event) => {
             const stepSize = event.angleDelta.y > 0 ? root.zoomStepSize : -root.zoomStepSize;
