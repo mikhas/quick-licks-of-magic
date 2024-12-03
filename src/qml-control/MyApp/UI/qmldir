@@ -1,0 +1,5 @@
+module MyApp.UI
+
+Main 1.0 Main.qml
+SomeControl 1.0 SomeControl.qml
+ResizeHandle 1.0 ResizeHandle.qml

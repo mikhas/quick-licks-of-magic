@@ -18,6 +18,7 @@ List of examples
 - [src/qml-actions](src/qml-actions)
 - [src/qml-action-decorator](src/qml-action-decorator)
 - [src/qml-zoomable-image](src/qml-zoomable-image)
+- [src/qml-control](src/qml-control)
 
 
 How to run the examples
