@@ -1,0 +1,5 @@
+module MyApp.UI.Layer4
+
+FlickableMessagePayload 1.0 FlickableMessagePayload.qml
+MessageHeading 1.0 MessageHeading.qml
+ItemHighlight 1.0 ItemHighlight.qml

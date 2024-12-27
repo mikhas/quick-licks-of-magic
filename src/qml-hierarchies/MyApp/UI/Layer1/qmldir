@@ -1,0 +1,4 @@
+module MyApp.UI.Layer1
+
+AppMenu 1.0 AppMenu.qml
+Canvas 1.0 Canvas.qml

@@ -1,0 +1,23 @@
+{
+    "files": [
+        "__init__.py",
+        "inbox.py",
+        "main.py",
+        "/UI/qmldir",
+        "MyApp/UI/Layer1/qmldir",
+        "MyApp/UI/Layer1/AppMenu.qml",
+        "MyApp/UI/Layer1/Canvas.qml",
+        "MyApp/UI/Main.qml",
+        "MyApp/UI/Layer2/qmldir",
+        "MyApp/UI/Layer2/ToolBar.qml",
+        "MyApp/UI/Layer2/ContentPane.qml",
+        "MyApp/UI/Layer3/qmldir",
+        "MyApp/UI/Layer3/MessageView.qml",
+        "MyApp/UI/Layer3/InboxView.qml",
+        "MyApp/UI/Layer3/InboxStatus.qml",
+        "MyApp/UI/Layer4/qmldir",
+        "MyApp/UI/Layer4/MessageHeading.qml",
+        "MyApp/UI/Layer4/ItemHighlight.qml",
+        "MyApp/UI/Layer4/FlickableMessagePayload.qml"
+    ]
+}

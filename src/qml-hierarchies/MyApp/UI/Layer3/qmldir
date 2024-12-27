@@ -1,0 +1,5 @@
+module MyApp.UI.Layer3
+
+InboxStatus 1.0 InboxStatus.qml
+InboxView 1.0 InboxView.qml
+MessageView 1.0 MessageView.qml

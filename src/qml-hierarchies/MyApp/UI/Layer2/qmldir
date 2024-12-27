@@ -1,0 +1,4 @@
+module MyApp.UI.Layer2
+
+ContentPane 1.0 ContentPane.qml
+ToolBar 1.0 ToolBar.qml
