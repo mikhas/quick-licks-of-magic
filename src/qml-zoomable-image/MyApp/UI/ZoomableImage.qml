@@ -39,6 +39,7 @@ Flickable {
 
     property alias source: image.source
     property alias zoom: image.scale
+    property bool enableLogScaling: false
     readonly property real minZoom: 0.25
     readonly property real maxZoom: 16.0
     readonly property real zoomStepSize: 0.04
@@ -96,7 +97,9 @@ Flickable {
         acceptedButtons: Qt.NoButton
         onWheel: (event) => {
             const stepSize = event.angleDelta.y > 0 ? root.zoomStepSize : -root.zoomStepSize;
-            root.setZoom(root.zoom + stepSize, event.x, event.y);
+            // With log scaling enabled, the step size adjusts dynamically to the zoom level.
+            const scale = root.enableLogScaling ? Math.log(1 + root.zoom) : 1;
+            root.setZoom(root.zoom + stepSize * scale, event.x, event.y);
             // Consumes the mouse event before the `Flickable` can process it.
             wheel.accepted = true;
         }

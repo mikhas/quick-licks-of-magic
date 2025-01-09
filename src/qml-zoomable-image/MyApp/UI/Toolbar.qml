@@ -8,6 +8,7 @@ Control {
     required property Action fitToWidth
     required property Action fitToHeight
     required property Action fitToSize
+    required property Action enableLogScaling
 
     leftPadding: 16
     topPadding: 8
@@ -20,6 +21,7 @@ Control {
         Button { action: root.fitToWidth }
         Button { action: root.fitToHeight }
         Button { action: root.fitToSize }
+        Switch { action: root.enableLogScaling }
     }
 }
 

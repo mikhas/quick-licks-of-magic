@@ -23,6 +23,13 @@ ApplicationWindow {
             text: "Fit to size"
             onTriggered: image.fitToSize()
         }
+        enableLogScaling: Action {
+            id: enableLogScaling
+
+            text: "Enable log scaling"
+            checkable: true
+            checked: false
+        }
     }
 
     UI.ZoomableImage {
@@ -36,6 +43,7 @@ ApplicationWindow {
             bottomMargin: root.height / 10
         }
         source: "../../media/norway.jpg"
+        enableLogScaling: enableLogScaling.checked
 
     }
 }
