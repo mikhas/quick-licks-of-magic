@@ -1,0 +1,15 @@
+{
+  "files": [
+    "itemsmodel.py",
+    "__init__.py",
+    "main.py",
+    "MyApp/UI/Toolbar.qml",
+    "MyApp/UI/ItemLoader.qml",
+    "MyApp/UI/Main.qml",
+    "MyApp/UI/ItemsView.qml",
+    "MyApp/UI/FancyTile.qml",
+    "MyApp/Tools/ActionDecorator.qml",
+    "MyApp/UI/qmldir",
+    "MyApp/Tools/qmldir"
+  ]
+}

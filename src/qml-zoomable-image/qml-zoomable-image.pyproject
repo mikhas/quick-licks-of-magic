@@ -1,0 +1,10 @@
+{
+  "files": [
+    "__init__.py",
+    "main.py",
+    "MyApp/UI/Toolbar.qml",
+    "MyApp/UI/ZoomableImage.qml",
+    "MyApp/UI/Main.qml",
+    "MyApp/UI/qmldir"
+  ]
+}
